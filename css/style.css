@@ -1267,6 +1267,10 @@
             padding: 0.2em 0;
 		}
 
+        #banner h3 {
+            margin-bottom: 1.5em;
+        }
+
 		#banner p {
 			font-size: 1.25em;
 			margin-bottom: 1.75em;
@@ -1331,7 +1335,7 @@
 
 	body.landing #main {
 		/*margin-top: -14em;*/
-        margin-top: -11em;
+        margin-top: -12em;
 	}
 
 /* Footer */
@@ -1385,8 +1389,16 @@
 /* CTA */
 
 	#cta {
-		background: #e89980;
-		color: #f9e5df;
+		/*background: #e89980;*/
+
+
+        background-attachment: scroll;
+        background-color: #AAA;
+        background-image: url("images/overlay.png"), url("../images/banner2.jpg");
+        background-position: top left,						center center;
+        background-repeat: repeat,							no-repeat;
+        background-size: auto,							cover;
+		color: #fff;
 		padding: 3.5em 0 4em 0;
 		text-align: center;
 	}
@@ -1394,6 +1406,13 @@
 		#cta h2, #cta h3, #cta h4, #cta h5, #cta h6 {
 			color: inherit;
 		}
+
+
+        #cta h2 + p {
+            font-size: 1.1em;
+            line-height: 1.5em;
+            margin-top: -0.5em;
+        }
 
 		#cta form {
 			margin: 0 auto;
