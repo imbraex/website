@@ -422,6 +422,7 @@
 		box-shadow: 0 2px 0 0 #e5e5e5;
 		margin: 0 0 2em 0;
 		padding: 3em;
+        overflow: hidden;
 	}
 
 		.box > :last-child {
@@ -1020,16 +1021,18 @@
 			padding: 0;
 			position: absolute;
 			top: 0;
-            background: url("../images/logo.png");
+           /* background: url("../images/logo.png");
             background-size: 57px 57px;
             background-position: 3px 2px;
-            background-repeat: no-repeat;
+            background-repeat: no-repeat;*/
 		}
 
 			#header h1 a {
 				color: #fff;
 				font-weight: 400;
 				border: 0;
+                text-indent: 10000px;
+                display: inline-block;
 			}
 
 		#header nav {
@@ -1261,15 +1264,14 @@
 
 		#banner h2 {
 			font-size: 3.5em;
-			line-height: 1em;
+			line-height: 1.5em;
 			margin: 0 0 0.5em 0;
 			padding: 0;
             background: url("../images/logo.png");
             background-position: center center;
             background-repeat: no-repeat;
-            background-size: 1.4em 1.4em;
-            padding: 0.2em 0;
-            text-transform: uppercase;
+            padding: 0.33em 0;
+            text-indent: 10000px;
 		}
 
         #banner h3 {
